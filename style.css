@@ -1,0 +1,151 @@
+@media (maxwidth:239px){
+     
+}
+@media  (min-width:240px){
+    #dugmici{
+        text-align: center;
+       
+    }
+    #brojevi{
+        margin: 0 auto;
+        width: 90%;
+        border: 2px solid green;
+        padding: 2px;
+        text-align: center;
+    }
+    #brojevipom{
+        width:100%;
+        
+        
+    }
+    #dugme{
+        margin-left: 14px;
+    }
+    
+    
+input{
+    width: 20px;
+}
+#i{
+    width:70px;
+}
+#dugme1,#dugme2,#dugme3,
+#dugme4,#dugme5,#dugme6,
+#dugme7,#dugme8,#dugme9,
+#dugme10,#dugme11,#dugme12,
+#dugme13,#dugme14,#dugme15,
+#dugme16,#dugme17,#dugme18,
+#dugme19,#dugme20,#dugme21,
+#dugme22,#dugme23,#dugme24,
+#dugme25,#dugme26,#dugme27,
+#dugme28,#dugme29,#dugme30,
+#dugme31,#dugme32,#dugme33,
+#dugme34,#dugme35,#dugme36,
+#dugme37,#dugme38,#dugme39
+{
+border-radius: 50%;
+color:lightgreen;
+background-color: blueviolet;
+width:68px;
+height:68px;
+font-size: 12px;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+    width: 9%;
+}
+#kontejner{
+    margin: 0 auto;
+    width: 90%;
+    border: 0 solid green;
+    padding: 2px;
+    text-align: center;
+}
+}
+
+
+@media  (min-width:320px){
+  
+#dugme1,#dugme2,#dugme3,
+#dugme4,#dugme5,#dugme6,
+#dugme7,#dugme8,#dugme9,
+#dugme10,#dugme11,#dugme12,
+#dugme13,#dugme14,#dugme15,
+#dugme16,#dugme17,#dugme18,
+#dugme19,#dugme20,#dugme21,
+#dugme22,#dugme23,#dugme24,
+#dugme25,#dugme26,#dugme27,
+#dugme28,#dugme29,#dugme30,
+#dugme31,#dugme32,#dugme33,
+#dugme34,#dugme35,#dugme36,
+#dugme37,#dugme38,#dugme39
+{
+border-radius: 50%;
+color:lightgreen;
+background-color: blueviolet;
+width:90px;
+height:90px;
+font-size: 16px;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+    width: 10%;
+}
+
+}
+
+@media  (min-width:480px){
+  
+    #dugme1,#dugme2,#dugme3,
+    #dugme4,#dugme5,#dugme6,
+    #dugme7,#dugme8,#dugme9,
+    #dugme10,#dugme11,#dugme12,
+    #dugme13,#dugme14,#dugme15,
+    #dugme16,#dugme17,#dugme18,
+    #dugme19,#dugme20,#dugme21,
+    #dugme22,#dugme23,#dugme24,
+    #dugme25,#dugme26,#dugme27,
+    #dugme28,#dugme29,#dugme30,
+    #dugme31,#dugme32,#dugme33,
+    #dugme34,#dugme35,#dugme36,
+    #dugme37,#dugme38,#dugme39
+    {
+    border-radius: 50%;
+    color:lightgreen;
+    background-color: blueviolet;
+    width:120px;
+    height:120px;
+    font-size: 24px;
+    }
+    #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+        width: 10%;
+    }
+    
+    }
+
+    @media  (min-width:600px){
+  
+        #dugme1,#dugme2,#dugme3,
+        #dugme4,#dugme5,#dugme6,
+        #dugme7,#dugme8,#dugme9,
+        #dugme10,#dugme11,#dugme12,
+        #dugme13,#dugme14,#dugme15,
+        #dugme16,#dugme17,#dugme18,
+        #dugme19,#dugme20,#dugme21,
+        #dugme22,#dugme23,#dugme24,
+        #dugme25,#dugme26,#dugme27,
+        #dugme28,#dugme29,#dugme30,
+        #dugme31,#dugme32,#dugme33,
+        #dugme34,#dugme35,#dugme36,
+        #dugme37,#dugme38,#dugme39
+        {
+        border-radius: 50%;
+        color:lightgreen;
+        background-color: blueviolet;
+        width:150px;
+        height:150px;
+        font-size: 30px;
+        }
+        #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+            width: 10%;
+        }
+        
+        }
