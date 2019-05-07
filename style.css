@@ -35,7 +35,7 @@ input{
     width: 20px;
 }
 #i{
-    width:70px;
+    width:60px;
 }
 #dugme1,#dugme2,#dugme3,
 #dugme4,#dugme5,#dugme6,
@@ -54,8 +54,8 @@ input{
 border-radius: 50%;
 color:lightgreen;
 background-color: blueviolet;
-width:68px;
-height:68px;
+width:66px;
+height:66px;
 font-size: 12px;
 }
 #i1,#i2,#i3,#i4,#i5,#i6,#i7,
