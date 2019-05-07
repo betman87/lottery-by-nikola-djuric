@@ -1,4 +1,3 @@
-
 document.getElementById("i1").setAttribute("disabled", "true");
 document.getElementById("i2").setAttribute("disabled", "true");
 document.getElementById("i3").setAttribute("disabled", "true");
