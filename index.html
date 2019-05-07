@@ -9,110 +9,126 @@
 
     <!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
 </head>
 
 
 <body>
-    <div id="brojevi"><div id="brojevipom">
-<input id="i1" disabled="true">
-<input id="i2" disabled="true">
-<input id="i3" disabled="true">
-<input id="i4" disabled="true">
-<input id="i5" disabled="true">
-<input id="i6" disabled="true">
-<input id="i7" disabled="true">
-<input id="i8" type="hidden">
-</div></div>
-<div id="kontejner">
-<button id="dugme" onclick="klik()" disabled=true >Izracunaj broj kombinacije.</button>
-<br>
-<label for="i">Broj kombinacije:</label>
-<input id="i" disabled="true"><br>
-<button id="res" onclick="Resetuj()">Reset</button>
-</div>
-<br>
-<div id="telefonskakombinacija">
-    <label for="odigratikombinaciju">kombinacija(br. tel.):</label>
-<input id="odigratikombinaciju" style="width:70px">
-<br>
-<button id="odigraj" onclick="PretvoriBrojULotoKombinaciju()" >Odigraj broj mobilnog:</button>
-<br>
-<label>Trazeni broj kombinacije:</label><br>
-<div id="brojevi2"><div id="brojevipom2">
-    <input id="ii1" disabled="true">
-    <input id="ii2" disabled="true">
-    <input id="ii3" disabled="true">
-    <input id="ii4" disabled="true">
-    <input id="ii5" disabled="true">
-    <input id="ii6" disabled="true">
-    <input id="ii7" disabled="true">
-    <input id="ii8" type="hidden">
-</div> </div>
-</div>
-<div id="dugmici">
-<button id="dugme1" onclick="klik1()" >01</button>
-<button id="dugme2" onclick="klik2()" >02</button>
-<button id="dugme3" onclick="klik3()" >03</button>
-<br>
-<button id="dugme4" onclick="klik4()" >04</button>
-<button id="dugme5" onclick="klik5()" >05</button>
-<button id="dugme6" onclick="klik6()" >06</button>
-<br>
-<button id="dugme7" onclick="klik7()" >07</button>
-<button id="dugme8" onclick="klik8()" >08</button>
-<button id="dugme9" onclick="klik9()" >09</button>
-<br>
-<button id="dugme10" onclick="klik10()" >10</button>
-<button id="dugme11" onclick="klik11()" >11</button>
-<button id="dugme12" onclick="klik12()" >12</button>
-<br>
-<button id="dugme13" onclick="klik13()" >13</button>
-<button id="dugme14" onclick="klik14()" >14</button>
-<button id="dugme15" onclick="klik15()" >15</button>
-<br>
-<button id="dugme16" onclick="klik16()" >16</button>
-<button id="dugme17" onclick="klik17()" >17</button>
-<button id="dugme18" onclick="klik18()" >18</button>
-<br>
-<button id="dugme19" onclick="klik19()" >19</button>
-<button id="dugme20" onclick="klik20()" >20</button>
-<button id="dugme21" onclick="klik21()" >21</button>
-<br>
-<button id="dugme22" onclick="klik22()" >22</button>
-<button id="dugme23" onclick="klik23()" >23</button>
-<button id="dugme24" onclick="klik24()" >24</button>
-<br>
-<button id="dugme25" onclick="klik25()" >25</button>
-<button id="dugme26" onclick="klik26()" >26</button>
-<button id="dugme27" onclick="klik27()" >27</button>
-<br>
-<button id="dugme28" onclick="klik28()" >28</button>
-<button id="dugme29" onclick="klik29()" >29</button>
-<button id="dugme30" onclick="klik30()" >30</button>
-<br>
-<button id="dugme31" onclick="klik31()" >31</button>
-<button id="dugme32" onclick="klik32()" >32</button>
-<button id="dugme33" onclick="klik33()" >33</button>
-<br>
-<button id="dugme34" onclick="klik34()" >34</button>
-<button id="dugme35" onclick="klik35()" >35</button>
-<button id="dugme36" onclick="klik36()" >36</button>
-<br>
-<button id="dugme37" onclick="klik37()" >37</button>
-<button id="dugme38" onclick="klik38()" >38</button>
-<button id="dugme39" onclick="klik39()" >39</button>
-<br>
+    <div id="brojevi">
+        <div id="brojevipom">
+            <input id="i1">
+            <input id="i2">
+            <input id="i3">
+            <input id="i4">
+            <input id="i5">
+            <input id="i6">
+            <input id="i7">
+            <input id="i8" type="hidden">
+        </div>
+    </div>
+    <div id="kontejner">
+        <button id="dugme" onclick="klik()">Izracunaj broj kombinacije</button>
+        <br>
+        <label for="i">Broj kombinacije:</label>
+        <input id="i"><br>
+        <button id="res" onclick="Resetuj()">Reset</button>
+    </div>
+    <br>
+    <div id="telefonskakombinacija">
+        <label for="odigratikombinaciju">kombinacija(br. tel.):</label>
+        <input id="odigratikombinaciju" style="width:70px">
+        <br>
+        <button id="odigraj" onclick="PretvoriBrojULotoKombinaciju()">Odigraj broj mobilnog:</button>
+        <br>
+        <label>Trazeni broj kombinacije:</label><br>
+        <div id="brojevi2">
+            <div id="brojevipom2">
+                <input id="ii1">
+                <input id="ii2">
+                <input id="ii3">
+                <input id="ii4">
+                <input id="ii5">
+                <input id="ii6">
+                <input id="ii7">
+                <input id="ii8" type="hidden">
+            </div>
+        </div>
+    </div>
+    <div id="dugmici">
+        <button id="dugme1" onclick="klik1()">01</button>
+        <button id="dugme2" onclick="klik2()">02</button>
+        <button id="dugme3" onclick="klik3()">03</button>
+        <br>
+        <button id="dugme4" onclick="klik4()">04</button>
+        <button id="dugme5" onclick="klik5()">05</button>
+        <button id="dugme6" onclick="klik6()">06</button>
+        <br>
+        <button id="dugme7" onclick="klik7()">07</button>
+        <button id="dugme8" onclick="klik8()">08</button>
+        <button id="dugme9" onclick="klik9()">09</button>
+        <br>
+        <button id="dugme10" onclick="klik10()">10</button>
+        <button id="dugme11" onclick="klik11()">11</button>
+        <button id="dugme12" onclick="klik12()">12</button>
+        <br>
+        <button id="dugme13" onclick="klik13()">13</button>
+        <button id="dugme14" onclick="klik14()">14</button>
+        <button id="dugme15" onclick="klik15()">15</button>
+        <br>
+        <button id="dugme16" onclick="klik16()">16</button>
+        <button id="dugme17" onclick="klik17()">17</button>
+        <button id="dugme18" onclick="klik18()">18</button>
+        <br>
+        <button id="dugme19" onclick="klik19()">19</button>
+        <button id="dugme20" onclick="klik20()">20</button>
+        <button id="dugme21" onclick="klik21()">21</button>
+        <br>
+        <button id="dugme22" onclick="klik22()">22</button>
+        <button id="dugme23" onclick="klik23()">23</button>
+        <button id="dugme24" onclick="klik24()">24</button>
+        <br>
+        <button id="dugme25" onclick="klik25()">25</button>
+        <button id="dugme26" onclick="klik26()">26</button>
+        <button id="dugme27" onclick="klik27()">27</button>
+        <br>
+        <button id="dugme28" onclick="klik28()">28</button>
+        <button id="dugme29" onclick="klik29()">29</button>
+        <button id="dugme30" onclick="klik30()">30</button>
+        <br>
+        <button id="dugme31" onclick="klik31()">31</button>
+        <button id="dugme32" onclick="klik32()">32</button>
+        <button id="dugme33" onclick="klik33()">33</button>
+        <br>
+        <button id="dugme34" onclick="klik34()">34</button>
+        <button id="dugme35" onclick="klik35()">35</button>
+        <button id="dugme36" onclick="klik36()">36</button>
+        <br>
+        <button id="dugme37" onclick="klik37()">37</button>
+        <button id="dugme38" onclick="klik38()">38</button>
+        <button id="dugme39" onclick="klik39()">39</button>
+        <br>
 
 
-    <button id="kontakt" onclick="window.open('tel:+381612520182'); ">
-     Klikni ovde da nazoves developera:
-    </button>
-</div>
+        <button id="kontakt" onclick="window.open('tel:+381612520182'); ">
+            Klikni ovde da nazoves developera:
+        </button>
+    </div>
     <script>
 
-       
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </script>
 
