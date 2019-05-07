@@ -1,3 +1,22 @@
+$(document).ready(function () {
+    $("#i1").attr("disabled", "true");
+    $("#i2").attr("disabled", "true");
+    $("#i3").attr("disabled", "true");
+    $("#i4").attr("disabled", "true");
+    $("#i5").attr("disabled", "true");
+    $("#i6").attr("disabled", "true");
+    $("#i7").attr("disabled", "true");
+    $("#ii1").attr("disabled", "true");
+    $("#ii2").attr("disabled", "true");
+    $("#ii3").attr("disabled", "true");
+    $("#ii4").attr("disabled", "true");
+    $("#ii5").attr("disabled", "true");
+    $("#ii6").attr("disabled", "true");
+    $("#ii7").attr("disabled", "true");
+    $("#dugme").attr("disabled", "true");
+    $("#i").attr("disabled", "true");
+
+});
 function C(n, k) {
 
     var p = 1, m = n;
@@ -6,9 +25,9 @@ function C(n, k) {
         p = p * m / j;
         m--;
     }
-    return p;  // The function returns the product of p1 and p2
+    return p;
 
-} /*broj k kombinacija bez ponavljanja od na elemenata*/
+} /*broj k kombinacija bez ponavljanja od n elemenata , nCk na digitronu*/
 
 
 function klik() {
@@ -583,6 +602,7 @@ function PretvoriBrojULotoKombinaciju() {
 
     }
     console.log(b);
+
     document.getElementById("ii1").value = b[0];
     document.getElementById("ii2").value = b[1];
     document.getElementById("ii3").value = b[2];
