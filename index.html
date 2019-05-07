@@ -33,6 +33,24 @@
 <button id="res" onclick="Resetuj()">Reset</button>
 </div>
 <br>
+<div id="telefonskakombinacija">
+    <label for="odigratikombinaciju">kombinacija(br. tel.):</label>
+<input id="odigratikombinaciju" style="width:70px">
+<br>
+<button id="odigraj" onclick="PretvoriBrojULotoKombinaciju()" >Odigraj broj mobilnog:</button>
+<br>
+<label>Trazeni broj kombinacije:</label><br>
+<div id="brojevi2"><div id="brojevipom2">
+    <input id="ii1" disabled="true">
+    <input id="ii2" disabled="true">
+    <input id="ii3" disabled="true">
+    <input id="ii4" disabled="true">
+    <input id="ii5" disabled="true">
+    <input id="ii6" disabled="true">
+    <input id="ii7" disabled="true">
+    <input id="ii8" type="hidden">
+</div> </div>
+</div>
 <div id="dugmici">
 <button id="dugme1" onclick="klik1()" >01</button>
 <button id="dugme2" onclick="klik2()" >02</button>
@@ -86,12 +104,12 @@
 <button id="dugme38" onclick="klik38()" >38</button>
 <button id="dugme39" onclick="klik39()" >39</button>
 <br>
+
+
+    <button id="kontakt" onclick="window.open('tel:+381612520182'); ">
+     Klikni ovde da nazoves developera:
+    </button>
 </div>
-<table>
-    <tr onclick="window.open('tel:900300400'); ">
-     <td>Phone: 900 300 400</td>
-    </tr>
-   </table>
     <script>
 
        
