@@ -304,7 +304,7 @@ font-size: 16px;
             left:0;
             top:0;
             width:100%;
-            outerHeight:100%;
+           /* outerHeight:100%;*/
             overflow:auto;  
             background-color:rgb(0,0,0,0.4);
              min-height: 100%;
