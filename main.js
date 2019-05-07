@@ -1,22 +1,41 @@
-$(document).ready(function () {
-    $("#i1").attr("disabled", "true");
-    $("#i2").attr("disabled", "true");
-    $("#i3").attr("disabled", "true");
-    $("#i4").attr("disabled", "true");
-    $("#i5").attr("disabled", "true");
-    $("#i6").attr("disabled", "true");
-    $("#i7").attr("disabled", "true");
-    $("#ii1").attr("disabled", "true");
-    $("#ii2").attr("disabled", "true");
-    $("#ii3").attr("disabled", "true");
-    $("#ii4").attr("disabled", "true");
-    $("#ii5").attr("disabled", "true");
-    $("#ii6").attr("disabled", "true");
-    $("#ii7").attr("disabled", "true");
-    $("#dugme").attr("disabled", "true");
-    $("#i").attr("disabled", "true");
 
-});
+document.getElementById("i1").setAttribute("disabled", "true");
+document.getElementById("i2").setAttribute("disabled", "true");
+document.getElementById("i3").setAttribute("disabled", "true");
+document.getElementById("i4").setAttribute("disabled", "true");
+document.getElementById("i5").setAttribute("disabled", "true");
+document.getElementById("i6").setAttribute("disabled", "true");
+document.getElementById("i7").setAttribute("disabled", "true");
+document.getElementById("ii1").setAttribute("disabled", "true");
+document.getElementById("ii2").setAttribute("disabled", "true");
+document.getElementById("ii3").setAttribute("disabled", "true");
+document.getElementById("ii4").setAttribute("disabled", "true");
+document.getElementById("ii5").setAttribute("disabled", "true");
+document.getElementById("ii6").setAttribute("disabled", "true");
+document.getElementById("ii7").setAttribute("disabled", "true");
+document.getElementById("dugme").setAttribute("disabled", "true");
+document.getElementById("i").setAttribute("disabled", "true"); //alternativa bez jquery-a
+
+
+// $(document).ready(function () {
+//
+// $("#i2").attr("disabled", "true");
+// $("#i3").attr("disabled", "true");
+// $("#i4").attr("disabled", "true");
+// $("#i5").attr("disabled", "true");
+// $("#i6").attr("disabled", "true");
+// $("#i7").attr("disabled", "true");
+// $("#ii1").attr("disabled", "true");
+// $("#ii2").attr("disabled", "true");
+// $("#ii3").attr("disabled", "true");
+// $("#ii4").attr("disabled", "true");
+// $("#ii5").attr("disabled", "true");
+// $("#ii6").attr("disabled", "true");
+// $("#ii7").attr("disabled", "true");
+// $("#dugme").attr("disabled", "true");
+// $("#i").attr("disabled", "true");
+
+// });
 function C(n, k) {
 
     var p = 1, m = n;
