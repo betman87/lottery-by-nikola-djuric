@@ -2,6 +2,40 @@
      
 }
 @media  (min-width:240px){
+    /* modal */
+    .modal-sadrzaj{
+        z-index: 2;
+        background-color:#fefefe;
+        margin: 15% auto;
+        padding:20px;
+        border:1px solid black;
+        width:192px;
+        height:96px;
+        overflow: scroll;
+        font-size: 12px;
+    }
+    
+    .zatvori{
+        color:#aaa;
+        float:right;
+        font-size:12px;
+        font-weight:bold;
+    }
+    
+    .zatvori:hover{
+        color:black;
+        text-decoration:none;
+        cursor:pointer;
+    }
+    
+    #tekst{
+    text-align: center;
+    }
+
+    #divmodal{
+        text-align: center;
+    }
+/* modal kraj */
     #dugmici{
         text-align: center;
        
@@ -74,7 +108,40 @@ font-size: 12px;
 
 
 @media  (min-width:320px){
-  
+    /* modal */
+    .modal-sadrzaj{
+        z-index: 2;
+        background-color:#fefefe;
+        margin: 15% auto;
+        padding:20px;
+        border:1px solid black;
+        width:256px;
+        height:128px;
+        overflow: scroll;
+        font-size:15px;
+    }
+    
+    .zatvori{
+        color:#aaa;
+        float:right;
+        font-size:15px;
+        font-weight:bold;
+    }
+    
+    .zatvori:hover{
+        color:black;
+        text-decoration:none;
+        cursor:pointer;
+    }
+    
+    #tekst{
+    text-align: center;
+    }
+
+    #divmodal{
+        text-align: center;
+    }
+/* kraj modala */
 #dugme1,#dugme2,#dugme3,
 #dugme4,#dugme5,#dugme6,
 #dugme7,#dugme8,#dugme9,
@@ -104,7 +171,41 @@ font-size: 16px;
 }
 
 @media  (min-width:480px){
-  
+    /* modal */
+    .modal-sadrzaj{
+        z-index: 2;
+        background-color:#fefefe;
+        margin: 15% auto;
+        padding:20px;
+        border:1px solid black;
+        width:384px;
+        height:192px;
+        overflow: scroll;
+        font-size:22px;
+    }
+    
+    .zatvori{
+        color:#aaa;
+        float:right;
+        font-size:22px;
+        font-weight:bold;
+    }
+    
+    .zatvori:hover{
+        color:black;
+        text-decoration:none;
+        cursor:pointer;
+    }
+    
+    #tekst{
+    text-align: center;
+    }
+
+    #divmodal{
+        text-align: center;
+    }
+
+    /* kraj modala */
     #dugme1,#dugme2,#dugme3,
     #dugme4,#dugme5,#dugme6,
     #dugme7,#dugme8,#dugme9,
@@ -134,7 +235,40 @@ font-size: 16px;
     }
 
     @media  (min-width:600px){
-  
+        /* modal */
+        .modal-sadrzaj{
+            z-index: 2;
+            background-color:#fefefe;
+            margin: 15% auto;
+            padding:20px;
+            border:1px solid black;
+            width:480px;
+            height:240px;
+            overflow: scroll;
+            font-size:22px;
+        }
+        
+        .zatvori{
+            color:#aaa;
+            float:right;
+            font-size:22px;
+            font-weight:bold;
+        }
+        
+        .zatvori:hover{
+            color:black;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        
+        #tekst{
+        text-align: center;
+        }
+
+        #divmodal{
+            text-align: center;
+        }
+  /* kraj modala */
         #dugme1,#dugme2,#dugme3,
         #dugme4,#dugme5,#dugme6,
         #dugme7,#dugme8,#dugme9,
@@ -161,4 +295,18 @@ font-size: 16px;
             width: 10%;
         }
         
+        }
+
+        .modal{
+            display:none;
+            position:fixed;
+            z-index:0.5;
+            left:0;
+            top:0;
+            width:100%;
+            outerHeight:100%;
+            overflow:auto;  
+            background-color:rgb(0,0,0,0.4);
+             min-height: 100%;
+            /* background-image: url("IMG_4368.jpeg"); */
         }
