@@ -6,7 +6,7 @@
         text-align: center;
        
     }
-    #brojevi{
+    #brojevi,#brojevi2{
         margin: 0 auto;
         width: 90%;
         border: 2px solid green;
@@ -17,6 +17,14 @@
         width:100%;
         
         
+    }
+    /* #brojevipom2{
+        width:100%;
+        
+        
+    } */
+    #telefonskakombinacija {
+        text-align: center;
     }
     #dugme{
         margin-left: 14px;
@@ -50,7 +58,9 @@ width:68px;
 height:68px;
 font-size: 12px;
 }
-#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,
+#ii1,#ii2,#ii3,#ii4,#ii5,#ii6,#ii7
+{
     width: 9%;
 }
 #kontejner{
@@ -86,7 +96,8 @@ width:90px;
 height:90px;
 font-size: 16px;
 }
-#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,
+#ii1,#ii2,#ii3,#ii4,#ii5,#ii6,#ii7{
     width: 10%;
 }
 
@@ -115,7 +126,8 @@ font-size: 16px;
     height:120px;
     font-size: 24px;
     }
-    #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+    #i1,#i2,#i3,#i4,#i5,#i6,#i7,
+#ii1,#ii2,#ii3,#ii4,#ii5,#ii6,#ii7{
         width: 10%;
     }
     
@@ -144,7 +156,8 @@ font-size: 16px;
         height:150px;
         font-size: 30px;
         }
-        #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+        #i1,#i2,#i3,#i4,#i5,#i6,#i7,
+#ii1,#ii2,#ii3,#ii4,#ii5,#ii6,#ii7{
             width: 10%;
         }
         
